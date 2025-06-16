@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: #fff;
+  color: #333;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ff6f00;
+}
+.logo span {
+  color: #333;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+nav a,
+.btn-outline,
+.btn-orange {
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.btn-outline {
+  border: 1px solid #333;
+  border-radius: 6px;
+}
+.btn-orange {
+  background-color: #ff6f00;
+  color: white;
+  border-radius: 6px;
+}

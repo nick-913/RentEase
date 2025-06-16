@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #fff;
+  padding: 20px;
+  max-width: 1440px;
+  margin: auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ff6f00;
+}
+.logo span {
+  color: #333;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+nav a,
+.btn-outline,
+.btn-orange {
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.btn-outline {
+  border: 1px solid #333;
+  border-radius: 6px;
+}
+.btn-orange {
+  background-color: #ff6f00;
+  color: white;
+  border-radius: 6px;
+}
+.hero {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: url("kathmandu2.jpg") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header img {
+  height: 40px;
+}
+.banner img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.form-container {
+  margin-top: 20px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.form-group {
+  flex: 1 1 30%;
+  min-width: 250px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input,
+select,
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+textarea {
+  height: 80px;
+}
+.section-title {
+  margin: 20px 0 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.nepali-text {
+  margin: 10px 0;
+  font-size: 14px;
+}
+.advertisement img {
+  max-width: 100%;
+  margin: 20px auto;
+  display: block;
+}
+.submit-btn {
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.submit-btn:hover {
+  background-color: darkorange;
+}
