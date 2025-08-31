@@ -9,10 +9,11 @@ setInterval(() => {
   }
   visible = !visible;
 }, 2000); // Every 2 seconds
+
 document.addEventListener("DOMContentLoaded", function () {
   const shiftBtn = document.getElementById("shiftBtn");
 
   shiftBtn.addEventListener("click", function () {
-    window.location.href = "../Shift room/shiftroom.html";
+    window.location.href = "../Shift room/shiftroom.php";
   });
 });

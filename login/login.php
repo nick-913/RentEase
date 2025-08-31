@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       <div class="left">
         <h1>WELCOME TO RentEase</h1>
         <p>Your Ultimate renting partner</p>
-        <img src="https://i.imgur.com/BGQ90YZ.png" alt="Promo Image" />
+
         <div class="links">
           <span>Terms and condition</span>
           <span>Privacy Policy</span>
@@ -93,30 +93,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             />
           </div>
 
-          <div class="forgot-password">Forgot Password?</div>
-
           <p class="privacy-note">
             We’ll text you to confirm your email. Standard message and data
             rates apply. <a href="#">Privacy Policy</a>
           </p>
 
           <button class="btn" type="submit">Continue →</button>
-
-          <div class="divider">OR</div>
-
-          <div style="text-align: center; font-size: 18px; margin-bottom: 10px">
-            Continue With
-          </div>
-
-          <div class="social-buttons">
-            <button>
-              <img src="https://i.imgur.com/2y0cT6D.png" alt="Facebook" />
-              Facebook
-            </button>
-            <button>
-              <img src="https://i.imgur.com/3rqr9kR.png" alt="Google" />
-              Google
-            </button>
           </div>
         </form>
       </div>
